@@ -26,20 +26,28 @@ header {
     height: 90vh;
 }
 
-header > div:first-child {
+#header-images {
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
 
-header > div:first-child img {
+#header-images img {
     padding: 15px 0;
     padding-right: 10px;
     margin-right: 15px;
     width: 55px;
 }
 
-header > div:first-child a:hover {
+#header-images i {
+    padding: 15px 0;
+    padding-right: 10px;
+    margin-right: 15px;
+    font-size: 55px;
+    color: white;
+}
+
+#header-images a:hover {
     opacity: 0.5;
 }
 
