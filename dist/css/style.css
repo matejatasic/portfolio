@@ -121,17 +121,7 @@ header > div:last-child > a:hover {
 ** Projects section
 **
 */
-.projects-row {
-    width: 85%;
-    padding-top: 30px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .project-card {
-    width: 45%;
     border: 1px solid lightgray;
     box-shadow: 5px 5px 3px #88888888;
 }
