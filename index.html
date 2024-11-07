@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +15,10 @@
     <script src="https://kit.fontawesome.com/f9d2d5cb9c.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
     <header class="text-center text-white">
         <div id="header-images">
@@ -39,21 +42,27 @@
             </a>
         </div>
     </header>
-    <div id="about" class="row px-3 py-4">
+    <section id="about" class="row px-3 py-4">
         <div id="about-text" class="col-10 text-center mx-auto">
             <h2>About Me</h2>
             <p>
-                Hello there! My name is Mateja Tasic and I am a Fullstack developer with over 2 year of professional experience.
-                I am currently working full-time for a digital sports media group as a Fullstack developer with some part-time freelance work designing and developing websites.
-                Since the time I discovered the power of programming and how it can help people by solving many of their problems a couple of years ago, I have constantly been improving my skills
-                striving to build better, more maintainable, faster, scalable and, above all, a software that solves the problems of specific people and businesses.
-                To achieve this I understood that I needed to learn from a various fields of knowledge, which would help me understand and contribute to as much stages of software development as I possibly can.
-                I am far from the end of that journey, but I am looking forward to tackling the problems that will bring me more closer to the end and help more
-                people and businesses along the way. 
+                Hello there! My name is Mateja Tasic and I am a Fullstack developer with over 2 year of professional
+                experience.
+                I am currently working full-time for a digital sports media group as a Fullstack developer with some
+                part-time freelance work designing and developing websites.
+                Since the time I discovered the power of programming and how it can help people by solving many of their
+                problems a couple of years ago, I have constantly been improving my skills
+                striving to build better, more maintainable, faster, scalable and, above all, a software that solves the
+                problems of specific people and businesses.
+                To achieve this I understood that I needed to learn from a various fields of knowledge, which would help
+                me understand and contribute to as much stages of software development as I possibly can.
+                I am far from the end of that journey, but I am looking forward to tackling the problems that will bring
+                me more closer to the end and help more
+                people and businesses along the way.
             </p>
         </div>
-    </div>
-    <div id="skills" class="row px-3 py-4">
+    </section>
+    <section id="skills" class="row px-3 py-4">
         <div class="col-12 text-center">
             <h2>Tech stack</h2>
         </div>
@@ -136,111 +145,138 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div id="projects" class="text-center p-sm-x-3 py-4">
+    </section>
+    <section id="freelance-projects" class="text-center p-sm-x-3 py-4">
+        <h2>Freelance projects</h2>
+        <div class="projects-row row justify-content-around mt-4">
+            <div class="project-card col-10 col-sm-5 mb-4">
+                <a href="https://gard018.rs" target="_blank">
+                    <img src="./dist/images/kick-box-club.png" alt="first_freelance_project_image">
+                </a>
+                <div>
+                    <h3>Kick boxing club website</h3>
+                    <p>
+                        A website I made for a local kick boxing club. Users can book their first training, book individual trainings, view
+                        when the training sessions are held, view news related to the club and get email notifications regarding their membership fees.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="personal-projects" class="text-center p-sm-x-3 py-4">
         <h2>Personal projects</h2>
         <div class="projects-row row justify-content-around mt-4">
             <div class="project-card col-10 col-sm-5 mb-4">
                 <a href="https://github.com/matejatasic/food_delivery_app" target="_blank">
-                    <img src="./dist/images/food-delivery-app.png" alt="first_project_image">
+                    <img src="./dist/images/food-delivery-app.png" alt="first_personal_project_image">
                 </a>
                 <div>
                     <h3>Food delivery app</h3>
                     <p>
-                        An app that allows you to order food from a variety of restaurants easily. Payout is done using Stripe. The app also has the driver part, where drivers can take orders,
+                        An app that allows you to order food from a variety of restaurants easily. Payout is done using
+                        Stripe. The app also has the driver part, where drivers can take orders,
                         can view the route to the destination, mark the orders as completed.
                     </p>
                 </div>
             </div>
             <div class="project-card col-10 col-sm-5 mb-4">
                 <a href="https://github.com/matejatasic/CabManagementSystem" target="_blank">
-                    <img src="./dist/images/cab-management-system.png" alt="second_project_image">
+                    <img src="./dist/images/cab-management-system.png" alt="second_personal_project_image">
                 </a>
                 <div>
                     <h3>Cab management system</h3>
                     <p>
-                        This project is in progress. The app allows customers to seamlessly rent cabs. It will also have an admin
-                        dashboard where where managers from different departments will be able to see, create, update and delete information
-                        related to their department. 
+                        This project is in progress. The app allows customers to seamlessly rent cabs. It will also have
+                        an admin
+                        dashboard where where managers from different departments will be able to see, create, update
+                        and delete information
+                        related to their department.
                     </p>
                 </div>
             </div>
             <div class="project-card col-10 col-sm-5 mb-4">
                 <a href="https://github.com/matejatasic/BankManagementSystem" target="_blank">
-                    <img src="./dist/images/bank-management-system.png" alt="third_project_image">
+                    <img src="./dist/images/bank-management-system.png" alt="third_personal_project_image">
                 </a>
                 <div>
                     <h3>Bank management system</h3>
                     <p>
-                        This is a simple console app that allows basic customer functionalities related to banking. The app also has the 
-                        admin part with functionalities related to the employees, account and transactions. The app is built in such a way that it can easily
+                        This is a simple console app that allows basic customer functionalities related to banking. The
+                        app also has the
+                        admin part with functionalities related to the employees, account and transactions. The app is
+                        built in such a way that it can easily
                         be converted to a web, mobile or even a desktop app.
                     </p>
                 </div>
             </div>
             <div class="project-card col-10 col-sm-5 mb-4">
                 <a href="https://github.com/matejatasic/django_chat" target="_blank">
-                    <img src="./dist/images/chat.png" alt="fourth_project_image">
+                    <img src="./dist/images/chat.png" alt="fourth_personal_project_image">
                 </a>
                 <div>
                     <h3>Chat</h3>
                     <p>
-                        This is a simple chat application that allows users to receive messages in real time, either in the public
+                        This is a simple chat application that allows users to receive messages in real time, either in
+                        the public
                         chat, where everyone can see the messages, or in the private chat between to users.
                     </p>
                 </div>
             </div>
             <div class="project-card col-10 col-sm-5 mb-4">
                 <a href="https://matejatasic.github.io/budget-app/" target="_blank">
-                    <img src="./dist/images/budget-app.PNG" alt="fifth_project_image">
+                    <img src="./dist/images/budget-app.PNG" alt="fifth_personal_project_image">
                 </a>
                 <div>
                     <h3>Budget app</h3>
                     <p>
-                        An app that enables you to enter your budget, enter, delete and edit your expenses and calculate the balance. 
+                        An app that enables you to enter your budget, enter, delete and edit your expenses and calculate
+                        the balance.
                         All data is stored in local storage so you can always see your budget.
                     </p>
                 </div>
             </div>
             <div class="project-card col-10 col-sm-5 mb-4">
                 <a href="https://github.com/matejatasic/react_devhire_app" target="_blank">
-                    <img src="./dist/images/devhire-app.PNG" alt="sixth_project_image">
+                    <img src="./dist/images/devhire-app.PNG" alt="sixth_personal_project_image">
                 </a>
                 <div>
                     <h3>Devhire app</h3>
                     <p>
-                        An app that enables you add, edit and delete a developer and hire developers individually or as a team.
+                        An app that enables you add, edit and delete a developer and hire developers individually or as
+                        a team.
                         All data is stored in local storage so you can always see your developers and hires.
                     </p>
                 </div>
             </div>
             <div class="project-card col-10 col-sm-5 mb-4 mb-sm-0">
                 <a href="https://matejatasic.github.io/flash-cards/" target="_blank">
-                    <img src="./dist/images/flash-cards.PNG" alt="seventh_project_image">
+                    <img src="./dist/images/flash-cards.PNG" alt="seventh_personal_project_image">
                 </a>
                 <div>
                     <h3>Flashcards app</h3>
                     <p>
-                        An app that enables you to enter a question and an answer, which are stored in local storage, 
-                        show them in a flash card and edit or delete a flashcard. 
+                        An app that enables you to enter a question and an answer, which are stored in local storage,
+                        show them in a flash card and edit or delete a flashcard.
                     </p>
                 </div>
             </div>
             <div class="project-card col-10 col-sm-5">
                 <a href="https://matejatasic.github.io/bmiCalculator/" target="_blank">
-                    <img src="./dist/images/bmi-calculator.PNG" alt="eighth_project_image">
+                    <img src="./dist/images/bmi-calculator.PNG" alt="eighth_personal_project_image">
                 </a>
                 <div>
                     <h3>BMI Calculator</h3>
                     <p>
-                        An app that enables you to choose which units to use, enter your height and weight and get the results.
+                        An app that enables you to choose which units to use, enter your height and weight and get the
+                        results.
                     </p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <footer>
         <p class="mb-0">Made and designed by Mateja Tasic &copy; 2022</p>
-    </footer>   
+    </footer>
 </body>
+
 </html>
